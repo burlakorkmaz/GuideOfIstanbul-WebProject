@@ -1,0 +1,18 @@
+.entry-content
+{
+    position: relative;
+}
+
+.kahvaltıresmi
+{
+    float: right;
+    width: 50%;
+    margin: 10px;
+}
+
+#newul 
+{
+   font-size: 20px; 
+  text-decoration: none;
+    
+}

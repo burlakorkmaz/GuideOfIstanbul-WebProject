@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <meta charset="utf-8">
+    <title>THE GUIDE OF ISTANBUL</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+     <link rel="stylesheet" href="css/custom.css" />
+    
+</head>
+
+    
+<body>
+    
+    
+    <div class ="wrapper">
+        <!-- HEADER -->
+        <header>
+            <div class="container">
+                <!-- LOGO -->
+            <div class="logo" ><a href="index.html">
+                <span>  
+                <img src=" images/istanbul.jpg" width="200"/>
+                </span>
+            </a></div>
+            <!-- Menu -->
+            <nav>
+                <ul id="navulli">
+                    <li> <a href="index.html" > HOMEPAGE </a>  </li>
+                    <li> <a href="aboutus.html" target="_blank"> ABOUT US </a>  </li>
+                    
+                </ul>
+                <button id="menuac" class="menu-bar"><a href="#" onclick="menuAc('navulli');">MENU</a></button>
+                
+                <div class="clear"></div>
+            </nav>
+            </div>
+        </header>
+        
+        <!-- SLIDER -->
+        <div class="slider">
+            <div><img src="images/istanbul2.jpg"></div>
+            <div><img src="images/istanbul3.jpg"></div>
+            <div><img src="images/istanbul4.jpg"></div>
+        </div>
+       
+        
+        <!-- CONTENT -->
+        <div class="content"> 
+            <h1 class="title">
+                <div class="container">THE GUIDE OF ISTANBUL</div>
+            </h1>
+            
+            <div class="container">
+                <div class="box">
+                    <div class="img"><a href="places.html" target="_blank"><img src="images/gezilecekyerler.jpg"  alt=""></a></div>
+                    <div class="title"  > <a href="places.html" target="_blank">Places to Visit</a></div>
+                    
+                
+                </div>   
+                <div class="box">
+                    <div class="img"><a href="https://www.trivago.com.tr/?iSemThemeId=4950&iPathId=32123&sem_keyword=istanbulda%20kal%C4%B1nacak%20yerler&sem_creativeid=174682469895&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=1t1&sem_param1=&sem_param2=&sem_campaignid=156530989&sem_adgroupid=7718233909&sem_targetid=aud-295721641839:kwd-22703188493&sem_location=1011463&cip=9012099011&gclid=EAIaIQobChMIiY6an9Hp2gIVD44YCh2u2A5AEAAYASAAEgKQX_D_BwE" target="_blank"><img src="images/kal%C4%B1nacakyerler.jpg" alt=""></a></div>
+                    <div class="title"> <a href="https://www.trivago.com.tr/?iSemThemeId=4950&iPathId=32123&sem_keyword=istanbulda%20kal%C4%B1nacak%20yerler&sem_creativeid=174682469895&sem_matchtype=e&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=1t1&sem_param1=&sem_param2=&sem_campaignid=156530989&sem_adgroupid=7718233909&sem_targetid=aud-295721641839:kwd-22703188493&sem_location=1011463&cip=9012099011&gclid=EAIaIQobChMIiY6an9Hp2gIVD44YCh2u2A5AEAAYASAAEgKQX_D_BwE" target="_blank">Hotels</a></div>
+                    
+                
+                </div> 
+                <div class="box">
+                    <div class="img"><a href="foodpart.html" target="_blank"><img src="images/istanbul-yemek-13899.jpeg" alt=""></a></div>
+                    <div class="title"><a href="foodpart.html" target="_blank">Foods / Drinks</a></div>
+                   
+                
+                </div> 
+                <div class="box">
+                    <div class="img"><a href="http://www.biletix.com/category/MUSIC/TURKIYE/tr" target="_blank"><img src="images/festivaller.jpg" alt=""></a></div>
+                    <div class="title"><a href="http://www.biletix.com/category/MUSIC/TURKIYE/tr" target="_blank">Festivals Concerts</a></div>
+                    
+                
+                </div> 
+                <div class="box">
+                    <div class="img"><a href="https://en.wikipedia.org/wiki/History_of_Istanbul" target="_blank"><img src="images/tarihi.jpg" alt=""></a></div>
+                    <div class="title"><a href="https://en.wikipedia.org/wiki/History_of_Istanbul" target="_blank">Historical Information</a></div>
+                    
+                
+                </div>
+                <div class="box">
+                    <div class="img"><a href="https://www.getyourguide.com/s/?q=%C4%B0stanbul&customerSearch=1&searchSource=2" target="_blank"><img src="images/tours.jpg" alt=""></a></div>
+                    <div class="title"><a href="https://www.getyourguide.com/s/?q=%C4%B0stanbul&customerSearch=1&searchSource=2" target="_blank">Tours</a></div>
+                    
+                
+                </div>
+            
+            </div>
+         
+        </div>
+        
+        <!-- FOOTER -->
+        <footer>
+            <span>İstanbul</span>
+        </footer>
+    
+    </div>
+    
+        <script type="text/javascript">
+     
+        function menuAc(ID)
+        {
+         var chooseıd = document.getElementById(ID);
+            
+            if(chooseıd.style.display=="none")
+            {
+                chooseıd.style.display ="block";
+            }
+              else
+            {
+                chooseıd.style.display="none";  
+            }
+                      
+        }
+        
+    </script>
+    <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({slideWidth: 1300, auto: true,
+   mode:'fade'});
+      });
+    </script>
+</body>
+
+
+
+</html>

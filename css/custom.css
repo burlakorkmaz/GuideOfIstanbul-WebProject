@@ -1,0 +1,150 @@
+.logo img{
+    border: 3px solid #6338AE;
+    border-radius: 40px;
+}
+body {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 20;
+}
+.clear{
+    clear: both;
+    
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+
+/* HEADER */
+header{
+    background: #D8D4DF;
+    
+}
+header .logo {
+    width: 50px;
+    margin: 0 auto;
+    font-size: 24px;
+    float: left;
+    
+    
+}
+header nav .menu-bar{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 25px;
+    font-weight: 600px;
+    cursor: pointer;
+    display:none;  /* sayfa küçültüldüğünde gözük */
+    
+}
+
+header nav ul{
+    width: 300px;
+    margin: 0 auto;
+    float: right;
+}
+header nav ul li{
+    float: left;
+    padding: 10px;
+}
+header nav ul li a {
+    color: #6338AE;
+    
+}
+header nav ul li a:hover{
+    color:firebrick;
+}
+
+/* SLIDER */
+
+.bx-wrapper, .bx-window {
+    margin:0 auto; width:1500px !important;
+}
+
+.pager{
+    width:1500px !important; 
+}
+.bx-wrapper, .bx-viewport {
+    height: 660px !important;
+}
+
+
+
+/*  --   */
+
+.content .box {
+    background: white;
+    border: 1px solid purple;
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.content .box img{
+    width: 100%;
+    
+}
+.content .box .title{
+    font-size: 20px;
+    padding: 5px;
+}
+.content h1.title{
+    background: #D8D4DF;
+    padding: 10px;
+    font-size: 36px;
+    color: #6338AE;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #D8D4DF;
+    color: #6338AE;
+    text-align: center;
+    padding: 10px ;
+    font-size: 15px;
+    
+}
+
+/* MEDIA QUERY */
+@media all and (max-width: 960px){
+    .slider p.text{
+        font-size: 42px;
+    }
+    .content .box {
+        width: 33.3%;
+    }
+}
+@media all and (max-width: 960px){
+    header .logo {
+        float: left;
+    }
+     header nav ul {
+        float: right;
+        width: 100%;
+        display: none; /* display none -- menu ye tıklandıgında gozuk veya ustundeyken gozuk -java script gerekli- */
+    }
+   
+    header nav ul li{
+        float: none;
+        background: #D3ADAD; 
+        text-align: center;
+    }
+    header nav ul li a{
+        color: floralwhite;
+        text-shadow: 1px 1px 1px black;
+    }
+  
+    .content .box{
+        width: 50%;
+    }
+    
+    header nav .menu-bar{
+        display: block;
+    }
+}

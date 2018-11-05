@@ -1,0 +1,52 @@
+.container2
+{
+   background-color: whitesmoke;
+   border-top: 3px solid rgb(99, 56, 174);
+   border-bottom: 3px solid rgb(99, 56, 174);
+}
+.entry-title
+{
+   text-align: center;
+   color: rgb(99, 56, 174);
+    font-size: 45px;
+   
+}
+.entry-content
+{
+    max-width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px;
+}
+.h2baslık
+{
+    text-align: center;
+    font-size: 30px;
+}
+.kahvaltıresmi
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p
+{
+   text-align: center; 
+   font-size: 20px;
+}
+
+.ulli
+{
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;   
+}
+
+#li
+{
+  text-align: left; 
+  list-style-type: disc; 
+            
+}

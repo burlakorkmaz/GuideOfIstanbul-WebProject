@@ -1,0 +1,45 @@
+.container3{
+ max-width: 1000px;
+ margin: 0 auto;
+ overflow: hidden;
+ height: 1000px;
+}
+.content .box2 {
+    background: white;
+    
+    border-bottom: 1px solid purple;
+    border-left: 1px solid purple;
+    border-right: 1px solid purple;
+    border-top: 1px solid purple;
+    height: 95%;
+    width: 95%;
+    position: relative;
+    padding: 10px;
+    
+    
+    
+}
+.resim
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+    width: 67%;
+}
+.anabaslık
+{
+    font-size: 30px;
+    text-align: center;
+}
+.h2baslık2
+{
+   font-size: 30px; 
+    text-align: center;
+}
+
+.box2 p
+{
+   font-size: 20px; 
+    text-align: center;
+}
