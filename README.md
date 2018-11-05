@@ -1,7 +1,7 @@
 # GuideOfIstanbul-WebProject
 
 ## How The Project Was Implemented
-* I started with creating our first page ( index.html ) with HTML-CSS
+* I started with creating the first page ( index.html ) with HTML-CSS
 * I designed the homepage ( index.html )
 * I added slider with the help of JavaScript
 * I also added a menu with using javascript and changed some variables to show up if the browser width is small enough 
